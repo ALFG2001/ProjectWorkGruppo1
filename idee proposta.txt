@@ -1,0 +1,122 @@
+Modulo 1: Predizione Rischio Turnover Operatori
+Titolo del Modulo: "Predizione Rischio Turnover Operatori"
+
+Obiettivo
+Prevedere la probabilità che un operatore simulato lasci l’azienda, utilizzando parametri legati a:
+
+Frequenza di assenze.
+Straordinari accumulati senza pause adeguate.
+Eventi di stress lavorativo come incidenti ripetuti o alta pressione.
+Età anagrafica, considerando che operatori giovani e senior mostrano tendenze diverse verso il turnover.
+Meccanismo di Funzionamento
+Analisi dei Dati:
+
+Frequenza di assenze, sia giustificate sia non giustificate.
+Straordinari continuativi senza pause eccessivi.
+Incidenti ripetuti durante i turni o fermo macchina in presenza dello stesso operatore.
+Età Anagrafica:
+Operatori giovani (18-30 anni): più inclini al turnover per la ricerca di nuove opportunità.
+Operatori senior (51+ anni): rischio minore di turnover, ma aumentato in caso di problemi di salute o stress.
+Calcolo Indice di Stress:
+Un indice percentuale che misura il rischio di turnover:
+
+0-30% (Basso rischio): Operatore stabile, poche assenze, buona gestione degli straordinari.
+31-60% (Rischio moderato): Segnali di affaticamento o aumento delle assenze, monitorare.
+61-100% (Alto rischio): Elevato rischio di turnover, necessarie azioni correttive immediate.
+Reportistica e Interventi:
+
+Report che evidenzia i dati critici (assenze, straordinari, incidenti).
+Suggerimenti automatici per mitigare il rischio: rotazione turni, pause aggiuntive, premi extra.
+Creazione di un profilo di rischio personalizzato per ogni operatore.
+Modulo 2: Gamification della Produttività con Classifica e Premi
+Titolo del Modulo: "Classifica Efficienza Operatori CNC e FORGIA"
+
+Obiettivo
+Incentivare gli operatori a migliorare la produttività, ridurre gli errori e promuovere il coinvolgimento tramite un sistema di punteggio basato su parametri come presenza, qualità del lavoro e straordinari.
+
+Meccanismo di Funzionamento
+Raccolta Dati:
+
+Ore di presenza effettiva (timbrature simulate).
+Straordinari effettuati.
+Numero di pezzi prodotti senza difetti.
+Frequenza di ritardi, pause non autorizzate e assenze.
+Età anagrafica:
+Giovani (18-30 anni): Bonus per straordinari e turni notturni.
+Senior (51+ anni): Bonus esperienza per ridotto numero di difetti.
+Assegnazione Punti:
+
+Presenza regolare: +10 punti per giornata di lavoro senza ritardi o assenze.
+Straordinari: +15 punti per ogni ora di straordinario.
+Qualità del lavoro: +20 punti per lotto prodotto senza difetti.
+Assenza di incidenti: +5 punti per turno completato senza incidenti.
+Penalità:
+
+-10 punti per ogni ritardo o uscita anticipata.
+-20 punti per pezzo difettoso.
+-30 punti per fermo macchina causato da errore umano.
+Classifica Dinamica:
+
+Aggiornamento in tempo reale su una dashboard visibile agli operatori.
+Top 5 Operatori del mese e Miglior Operatore della Settimana.
+Storico dei premi accumulati.
+Premi:
+
+Premio settimanale: “Operatore Efficiente della Settimana” (badge digitale).
+Premio mensile simulato: bonus produttività o riconoscimento formale.
+
+Modulo 3: Predizione Infortuni Operatori
+Titolo del Modulo: "Predizione Rischio Infortuni Operatori"
+
+Obiettivo
+Prevedere la probabilità di infortuni sul lavoro analizzando i dati relativi a comportamenti, condizioni lavorative e stato fisico degli operatori, con l’obiettivo di migliorare la sicurezza e ridurre incidenti.
+
+Meccanismo di Funzionamento
+Analisi dei Dati:
+
+Stanchezza accumulata: Numero di ore consecutive di lavoro senza pause adeguate.
+Errori ricorrenti: Frequenza di incidenti minori, come pezzi difettosi prodotti o piccoli fermi macchina causati dall’operatore.
+Eventi di straordinario: Numero di straordinari svolti nelle ultime settimane senza riposi compensativi.
+Età Anagrafica:
+Operatori senior: maggiore rischio di infortuni legati a stanchezza fisica.
+Giovani: maggiore rischio per inesperienza.
+Calcolo Indice di Rischio Infortuni:
+Un indice in percentuale basato su parametri dinamici:
+
+0-30% (Basso rischio): Operatore riposato, assenza di errori recenti.
+31-60% (Rischio moderato): Segni di affaticamento o ripetuti errori minori.
+61-100% (Alto rischio): Elevato rischio di incidente, necessaria una pausa obbligatoria.
+Azioni Preventive:
+
+Suggerire pause obbligatorie o ridistribuzione dei turni.
+Promuovere interventi formativi sulla sicurezza per operatori giovani o in forte stress.
+Reportistica:
+
+Report settimanali che evidenziano gli operatori a rischio.
+Dashboard visiva per monitorare il rischio di infortuni in tempo reale.
+Modulo 4: Predizione Manutenzione Macchinari
+Titolo del Modulo: "Manutenzione Predittiva CNC e FORGIA"
+
+Obiettivo
+Prevedere la necessità di manutenzione dei macchinari CNC e FORGIA per ridurre i tempi di fermo e ottimizzare la produzione, basandosi su dati storici e condizioni operative attuali.
+
+Meccanismo di Funzionamento
+Raccolta Dati:
+
+Ore di utilizzo accumulate: Totale ore di funzionamento continuo.
+Incidenti e fermi macchina: Frequenza dei fermi dovuti a guasti o rotture di componenti.
+Temperatura operativa: Rilevazione di anomalie termiche (simulata).
+Stato degli utensili: Numero di pezzi prodotti dall’ultimo cambio utensili.
+Calcolo Rischio Manutenzione Necessaria:
+
+0-30% (Basso rischio): Macchina in ottime condizioni, nessun intervento imminente.
+31-60% (Rischio moderato): Segni di usura, programmare manutenzione preventiva.
+61-100% (Alto rischio): Guasto imminente, necessaria manutenzione immediata.
+Azioni Preventive:
+
+Notifica automatica per la programmazione della manutenzione preventiva.
+Suggerimenti su interventi specifici (es. cambio utensili o verifica componenti meccaniche).
+Reportistica:
+
+Report giornalieri sulle condizioni dei macchinari.
+Storico interventi di manutenzione eseguiti per analisi futura.
