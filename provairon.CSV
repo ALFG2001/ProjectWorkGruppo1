@@ -1,0 +1,17 @@
+fg_datainiziovalidita;fg_tipo;fg_codiceacciaio;fg_datafinevalidita;fg_prezzokg@OData.Community.Display.V1.FormattedValue;;;;;
+02/12/2024 00:00;Acciaio Inox;ACC001;04/12/2024 12:05;2,5;;;;;
+02/12/2024 00:00;Acciaio Legato 30;ACC002;04/12/2024 12:05;2,45;;;;;
+02/12/2024 00:00;Acciaio Utensili;ACC003;04/12/2024 12:05;2,55;;;;;
+02/12/2024 00:00;Acciaio Carbonio;ACC004;04/12/2024 12:05;2,6;;;;;
+04/12/2024 12:05;Acciaio Inox;ACC001;04/12/2024 12:09;2,25;;;;;
+04/12/2024 12:05;Acciaio Legato 30;ACC002;04/12/2024 12:09;2,21;;;;;
+04/12/2024 12:05;Acciaio Utensili;ACC003;04/12/2024 12:09;2,3;;;;;
+04/12/2024 12:05;Acciaio Carbonio;ACC004;04/12/2024 12:09;2,34;;;;;
+04/12/2024 12:09;Acciaio Inox;ACC001;09/12/2024 13:57;2,14;;;;;
+04/12/2024 12:09;Acciaio Legato 30;ACC002;09/12/2024 13:57;2,1;;;;;
+04/12/2024 12:09;Acciaio Utensili;ACC003;09/12/2024 13:57;2,18;;;;;
+04/12/2024 12:09;Acciaio Carbonio;ACC004;09/12/2024 13:57;2,22;;;;;
+09/12/2024 13:57;Acciaio Inox;ACC001;;2,03;;;;;
+09/12/2024 13:57;Acciaio Legato 30;ACC002;;1,99;;;;;
+09/12/2024 13:57;Acciaio Utensili;ACC003;;2,07;;;;;
+09/12/2024 13:57;Acciaio Carbonio;ACC004;;2,11;;;;;
