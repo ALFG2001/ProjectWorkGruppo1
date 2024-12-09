@@ -33,3 +33,33 @@ IOnpMXNr/AVKzlTs7bnE94mVEFb2MYaLfzMcpkLBaEOSm1mKsSTHukdUjFX7+weC
 35MuG9iL3KR/mhHPu3sTSitH7D7555d/PhyE4ZGc+jCrqp/taYuQUOMJDiXtxKxv
 G04jQs/y3ayMnhPDqP0JS21s/NMmd7pdVHtpF2TWU/8+I4r/6w==
 -----END CERTIFICATE-----
+
+SELECT * FROM acciai;
+
+CREATE TABLE defaultdb.acciai (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fg_datainiziovalidita DATETIME,
+    fg_tipo VARCHAR(255),
+    fg_codice_acciaio VARCHAR(50),
+    fg_data_fine_validita DATETIME,
+    fg_prezzo_kg DECIMAL(10, 2)
+);
+
+INSERT INTO defaultdb.acciai (fg_datainiziovalidita, fg_tipo, fg_codice_acciaio, fg_data_fine_validita, fg_prezzo_kg)
+VALUES
+('2024-12-02 00:00', 'Acciaio Inox', 'ACC001', '2024-12-04 12:05', 2.5),
+('2024-12-02 00:00', 'Acciaio Legato 30', 'ACC002', '2024-12-04 12:05', 2.45),
+('2024-12-02 00:00', 'Acciaio Utensili', 'ACC003', '2024-12-04 12:05', 2.55),
+('2024-12-02 00:00', 'Acciaio Carbonio', 'ACC004', '2024-12-04 12:05', 2.6),
+('2024-12-04 12:05', 'Acciaio Inox', 'ACC001', '2024-12-04 12:09', 2.25),
+('2024-12-04 12:05', 'Acciaio Legato 30', 'ACC002', '2024-12-04 12:09', 2.21),
+('2024-12-04 12:05', 'Acciaio Utensili', 'ACC003', '2024-12-04 12:09', 2.3),
+('2024-12-04 12:05', 'Acciaio Carbonio', 'ACC004', '2024-12-04 12:09', 2.34),
+('2024-12-04 12:09', 'Acciaio Inox', 'ACC001', '2024-12-09 13:57', 2.14),
+('2024-12-04 12:09', 'Acciaio Legato 30', 'ACC002', '2024-12-09 13:57', 2.1),
+('2024-12-04 12:09', 'Acciaio Utensili', 'ACC003', '2024-12-09 13:57', 2.18),
+('2024-12-04 12:09', 'Acciaio Carbonio', 'ACC004', '2024-12-09 13:57', 2.22),
+('2024-12-09 13:57', 'Acciaio Inox', 'ACC001', NULL, 2.03),
+('2024-12-09 13:57', 'Acciaio Legato 30', 'ACC002', NULL, 1.99),
+('2024-12-09 13:57', 'Acciaio Utensili', 'ACC003', NULL, 2.07),
+('2024-12-09 13:57', 'Acciaio Carbonio', 'ACC004', NULL, 2.11);
